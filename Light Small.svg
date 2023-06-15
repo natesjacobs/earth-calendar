@@ -1,0 +1,7 @@
+<svg width="250" height="36" viewBox="0 0 250 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<text x="0%" y="50%" xml:space="preserve" style="white-space: pre" font-family="Arial" letter-spacing="0em">
+	<tspan fill="#9E9E9E" font-size="21" dominant-baseline="middle" text-anchor="left">YY&#160;&#160;QQ&#160;&#160;D1&#160;&#160;D2&#160;&#160;</tspan>
+	<tspan fill="#E8E8E8" font-size="12" dominant-baseline="middle" text-anchor="left" id="UNIX">1023654391</tspan>
+</text>
+<script>function increment() {var text = document.getElementById("UNIX");text.innerHTML = ++text.innerHTML;}setInterval(increment, 1000);</script>
+</svg>
