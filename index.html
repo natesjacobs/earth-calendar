@@ -1,0 +1,33 @@
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    #timestamp {
+      font-size: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div id="timestamp"></div>
+
+  <script>
+    function updateTimestamp() {
+      var timestampElement = document.getElementById("timestamp");
+      var timestamp = Math.floor(Date.now() / 1000); // Get UNIX timestamp in seconds
+      timestampElement.textContent = timestamp;
+
+      setTimeout(updateTimestamp, 1000); // Update every second
+    }
+
+    updateTimestamp();
+  </script>
+</body>
+</html>
